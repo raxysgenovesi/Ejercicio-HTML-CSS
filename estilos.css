@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-size: 40px;
+}
+
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+font-weight: bold;
+}
+
+
+h2{
+    font: bold 14px sans-serif;
+}
+
+header,section, footer, aside, nav, article, hgroup {
+
+    display: block
+}
+body{
+    text-align: center;
+    background:rgb(120, 139, 141);
+}
+
+.division1{
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+    background: white;
+}
+
+.cabecera{
+    text-align: left;
+    background: beige ;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.menu{
+    text-align: left;
+    background-color: grey;
+    padding: 5px 15px ;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px 20px;
+    font: 14px bold verdana;
+    border: 1px solid beige;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+article{
+    border: 1px solid gray;
+    background-color: beige;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+time{
+    color: gray;
+}
+
+.lateral{
+    float: left;
+    width: 300px;
+    margin-top:  20px;
+}
+
+.lateral blockquote{
+    border: 1px solid gray;
+    background: beige;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.pie{
+clear: both;
+background-color: gray;
+padding: 20px;
+}
+
+img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+
